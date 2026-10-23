@@ -72,7 +72,7 @@ export default function SettingScreen({ navigation }) {
           <Ionicons name="home-outline" size={28} color="#000" />
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.navItem}>
+        <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('AverageScreen')}>
           <Ionicons name="stats-chart" size={28} color="#000" />
         </TouchableOpacity>
         

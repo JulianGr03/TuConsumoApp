@@ -68,7 +68,7 @@ export default function HomeScreen({ navigation }) {
           <Ionicons name="home-outline" size={28} color="#4CA1D5" />
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.navItem}>
+        <TouchableOpacity style={styles.navItem} onPress={() => navigation.replace("AverageScreen")}>
           <Ionicons name="stats-chart" size={28} color="#000" />
         </TouchableOpacity>
         

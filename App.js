@@ -3,9 +3,11 @@ import HomeScreen from './Screens/HomeScreen.js';
 import LoginScreen from './Screens/LoginScreen.js';
 import RegisterScreen from './Screens/RegisterScreen.js';
 import SettingScreen from './Screens/SettingScreen.js';
+import AverageScreen from './Screens/AverageScreen.js';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 
 const Stack = createNativeStackNavigator()
 
@@ -21,6 +23,7 @@ export default function App() {
         <Stack.Screen name='RegisterScreen' component={RegisterScreen} />
         <Stack.Screen name='HomeScreen' component={HomeScreen} />
         <Stack.Screen name='SettingScreen' component={SettingScreen} />
+        <Stack.Screen name='AverageScreen' component={AverageScreen} />
 
 
       </Stack.Navigator>
